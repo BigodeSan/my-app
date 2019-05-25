@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    // background-color: bisque;
+    background-image: url('./assets/back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box {
+    margin: 20px 0 20px;
+    padding: 15px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 3px;
+}
+
+section {
+    padding-top: 50px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 700;
+}
+
+.page-header{
+    padding: 15px 0 15px;
+}
+
+.card {
+    width: 18rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-deck {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 500; 
+}
+

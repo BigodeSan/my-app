@@ -1,0 +1,40 @@
+.navbar {
+    background-color: rgb(255, 255, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+}
+
+.dropdown-menu {
+    background-color: yellow;
+    font-size: 1.25rem;
+}
+
+img {
+    display: block;
+    height: 40px;
+}
+
+@media (min-width: 992px) { 
+    img {
+        display: none;
+    }
+
+    .navbar {
+        background-color: rgba(0, 162, 255, 0.829);
+        border-radius: 3px;
+    }
+
+    .nav-item {
+        padding: 0 20px 0 20px;
+    }
+
+    .navbar {
+        padding: 0 40px 0 40px;
+    }
+
+    .dropdown-menu {
+        background-color: rgb(0, 217, 255);
+        font-size: 1.25rem;
+    }
+
+}
