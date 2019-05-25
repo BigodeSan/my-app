@@ -85,10 +85,6 @@ $(document).ready(function(){
  });  
 });
 
-$(document).ready(function()  {
-  $('#telefone').css({'background-color': 'yellow', 'font-size': '100%'});
-});
-
   }
 
 }
